@@ -1,0 +1,363 @@
+/* font sytle */
+@font-face {
+  font-family: 'GyeonggiTitleL';
+  src: url(font/경기천년제목_Light.ttf);
+}
+@font-face {
+  font-family: 'GyeonggiTitleM';
+  src: url(font/경기천년제목_Medium.ttf);
+}
+@font-face {
+  font-family: 'GyeonggiTitleB';
+  src: url(font/경기천년제목_Bold.ttf);
+}
+
+/* basic style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+}
+
+/* slogan style */
+.slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 606px;
+  margin: 0;
+}
+.text {
+  font-family: 'GyeonggiTitleB';
+  font-size: 48px;
+  color: #8e7db9;
+  margin-bottom: 100px;
+}
+.circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 530px;
+  height: 195px;
+  background: url('Image/section1.png') no-repeat center;
+  background-size: contain;
+}
+
+.circle span {
+  font-family: 'GyeonggiTitleB';
+  font-size: 70px;
+  color: #8d4ebd;
+}
+
+/* info style */
+#section2{
+  background: #f8eeff;
+}
+.info {
+  background: #f8eeff;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 27px;
+}
+.info>div{
+  width: 586px;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+.when,
+.where,
+.who {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoCircle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 177px;
+  height: 103px;
+  background: url('Image/infoCircle.png') no-repeat center;
+  background-size: contain;
+}
+.info p {
+  font-family: 'GyeonggiTitleM';
+  font-size: 50px;
+  color: #c8a8e2;
+  text-shadow: 3px 3px 5px #414040;
+}
+
+/* lineUp style */
+.lineUp {
+  background: url(Image/bgImage.png) no-repeat;
+  height: 1560px;
+}
+.lineUp h2 {
+  font-family: 'GyeonggiTitleB';
+  font-size: 90px;
+  color: #8d4ebd;
+  text-align: center;
+  padding: 63px 0 100px;
+}
+.lineup {
+  position: relative;
+  background: url(Image/lineupBg.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 370px;
+  height: 555px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  box-sizing: border-box;
+  padding: 30px 30px 0;
+}
+.lineup img {
+  width: 285px;
+  height: 340px;
+  border: 1px solid #ffffff;
+  border-radius: 35px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.lineup p {
+  font-family: 'GyeonggiTitleL';
+  font-size: 20px;
+  color: #000000;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.top,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.top {
+  margin-left: 300px;
+}
+.bottom {
+  margin-top: 103px;
+  margin-right: 140px;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+/* program style */
+.program {
+  width: 80%;
+  position: relative;
+  margin-left: 250px;
+}
+.program h2 {
+  font-family: 'GyeonggiTitleB';
+  font-size: 90px;
+  color: #8d4ebd;
+  text-align: center;
+  padding: 63px 0 100px;
+}
+.program h3 {
+  font-family: 'GyeonggiTitleB';
+  font-size: 60px;
+  color: #d2b3db;
+  padding-bottom: 20px;
+}
+.program p {
+  font-family: 'GyeonggiTitleM';
+  font-size: 30px;
+  color: #0b1957;
+}
+.program > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 200px;
+}
+.program div img {
+  width: 520px;
+  height: 520px;
+}
+.text {
+  text-align: center;
+}
+
+/* FnB style */
+.FnB {
+  background: #ebe5ef;
+  height: 930px;
+  margin-top: 125px;
+}
+.FnB h2 {
+  font-family: 'GyeonggiTitleB';
+  font-size: 90px;
+  color: #8d4ebd;
+  text-align: center;
+  padding: 63px 0 100px;
+}
+
+.fnb img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+}
+
+.fnb {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 1800px;
+  margin: 50px auto;
+}
+
+/* Goods style */
+.Goods {
+  margin-bottom: 470px;
+}
+.Goods h2 {
+  font-family: 'GyeonggiTitleB';
+  font-size: 90px;
+  color: #8d4ebd;
+  text-align: center;
+  padding: 63px 0 100px;
+}
+.goods1 {
+  border: 5px solid #b7add2;
+  border-radius: 45px;
+  width: 400px;
+  height: 397px;
+  margin-bottom: 50px;
+}
+.goods2 {
+  border: 5px solid #b7add2;
+  border-radius: 45px;
+  width: 400px;
+  height: 437px;
+  margin-bottom: 50px;
+}
+.goods3 {
+  border: 5px solid #b7add2;
+  border-radius: 37px;
+  width: 400px;
+  height: 198px;
+  margin-bottom: 50px;
+}
+.goods4 {
+  border: 5px solid #b7add2;
+  border-radius: 45px;
+  width: 400px;
+  height: 474px;
+  margin-bottom: 50px;
+}
+.goods5 {
+  border: 5px solid #b7add2;
+  border-radius: 45px;
+  width: 470px;
+  height: 560px;
+  margin-bottom: 50px;
+}
+.goods6 {
+  border: 5px solid #b7add2;
+  border-radius: 45px;
+  width: 470px;
+  height: 480px;
+  margin-bottom: 50px;
+}
+.goods7 {
+  border: 5px solid #b7add2;
+  border-radius: 45px;
+  width: 470px;
+  height: 461px;
+  margin-bottom: 50px;
+}
+
+.goods1 img {
+  width: 310px;
+  height: 265px;
+  padding-top: 20px;
+}
+.goods2 img {
+  width: 270px;
+  height: 300px;
+}
+.goods3 img {
+  width: 362px;
+  height: 57px;
+  padding-top: 28px;
+  padding-bottom: 15px;
+}
+.goods4 img {
+  width: 332px;
+  height: 332px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.goods5 img {
+  width: 475px;
+  height: 401px;
+  padding-top: 17px;
+}
+.goods6 img {
+  width: 338px;
+  height: 338px;
+  padding-top: 25px;
+}
+.goods7 img {
+  width: 345px;
+  height: 349px;
+  padding-top: 7px;
+}
+.Goods p {
+  font-family: 'GyeonggiTitleB';
+  font-size: 33px;
+  color: #0b1957;
+}
+#innerGoods {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+#goodsLeft,
+#goodsright {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* footer style */
+footer {
+  border-top: 5px solid #7d3fad;
+  padding: 72px 0 60px;
+  text-align: center;
+  margin-top: 15px;
+}
+footer p {
+  font-family: 'GyeonggiTitleL';
+  font-size: 20px;
+  margin-bottom: 8px;
+}
